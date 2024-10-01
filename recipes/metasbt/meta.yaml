@@ -20,7 +20,7 @@ build:
 
 requirements:
   host:
-    - numpy >=1.22.3
+    - numpy >=1.19.2
     - pip
     - python >=3.8,<3.9
     - requests >=2.28.0
@@ -36,7 +36,7 @@ requirements:
     - minimizers >=0.1.2
     - ncbitax2lin >=2.3.2
     - ntcard >=1.2.2
-    - numpy >=1.22.3
+    - numpy >=1.19.2
     - packaging >=23.2
     - python >=3.8
     - requests >=2.28.0
