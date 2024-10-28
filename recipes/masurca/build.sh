@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash -euo
 
 set -x -e
 BOOST_ROOT="${PREFIX}"
