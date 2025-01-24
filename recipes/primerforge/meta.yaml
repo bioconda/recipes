@@ -26,7 +26,7 @@ requirements:
     - python >=3.9,<3.12
     - biopython ==1.81
     - ispcr
-    - khmer >=2.1,<3
+    - khmer ==2.1.2
     - numpy
     - primer3-py >=2.0
     - pyahocorasick
@@ -34,6 +34,7 @@ requirements:
 
 test:
   commands:
+    - python3 -c "import khmer; STAR = '*'*20; print(f'\n{STAR}\n      {khmer.__version__}\n{STAR}\n')"
     - primerForge --help
     - primerForge --check_install
 
