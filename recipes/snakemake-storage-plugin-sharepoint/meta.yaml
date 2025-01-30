@@ -37,6 +37,7 @@ test:
     - pip
 
 about:
+  home: https://github.com/Hugovdberg/snakemake-storage-plugin-sharepoint
   summary: Snakemake storage plugin for reading and writing files on Microsoft SharePoint.
   license: MIT
   license_file: LICENSE
